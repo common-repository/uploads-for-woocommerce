@@ -1,0 +1,12 @@
+action: woo_uploads_product_datatab_form | $product_id | used to add custom options to woo uploads
+action: woo_uploads_product_datatab_update | $product_id | save custom options from woo uploads data tab
+filter: woo_uploads_ajax_strings | array | localized strings for ajax use
+filter: woo_uploads_is_visible | boolean | is upload form visible on a product page
+filter: woo_uploads_is_enabled | boolean | is upload enabled
+filter: woo_uploads_custom_ajax_object | array | custom variables for the WooUploads javascript object
+filter: woo_uploads_js_validators | array | js file validators
+filter: woo_uploads_validators | array | adding/changing validators
+filter: woo_uploads_thumbnail_{ext} | string | change the default thumbnail for file extesions
+filter: woo_uploads_zip_archive_filename | string | change filename of the zip archive
+filter: woo_uploads_zip_item_filename | string | change filename of the archived zip file
+action: woo_uploads_zip_metabox | $order | add custom logic, view to zip upload metabox

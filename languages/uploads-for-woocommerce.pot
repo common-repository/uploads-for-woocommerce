@@ -1,0 +1,281 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Uploads for WooCommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-16 08:50+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.4; wp-5.5.3"
+
+#: templates/form-template.php:22
+msgid "Uploading"
+msgstr ""
+
+#: templates/form-template.php:32 templates/form.php:62
+#: includes/WooCommerce/Cart/Item.php:60 includes/WooCommerce/Order/View.php:37
+msgid "Quantity:"
+msgstr ""
+
+#. <br> HTML break
+#: templates/form.php:24
+msgid ""
+"Select one or more files from your<br>computer, or drag and drop them here"
+msgstr ""
+
+#: includes/i18n/AjaxStrings.php:11
+msgid "Are you sure you want to cancel the upload?"
+msgstr ""
+
+#: includes/i18n/AjaxStrings.php:12 includes/WooCommerce/Cart/Add.php:22
+msgid "Please upload a file before adding the product to your cart."
+msgstr ""
+
+#: includes/i18n/AjaxStrings.php:13
+msgid "Please wait, while we prepare your files for upload."
+msgstr ""
+
+#. {{filename}} is a variable for JavaScript to be replaced with the uploaded filename
+#: includes/i18n/AjaxStrings.php:15
+msgid "The filesize of <strong>{{filename}}</strong> is too large."
+msgstr ""
+
+#. {{filename}} is a variable for JavaScript to be replaced with the uploaded filename; &#39; HTML quote entity
+#: includes/i18n/AjaxStrings.php:17
+msgid "The uploaded file <strong>{{filename}}</strong> isn&#39;t supported."
+msgstr ""
+
+#: includes/i18n/AjaxStrings.php:18
+msgid "Processing"
+msgstr ""
+
+#: includes/i18n/AjaxStrings.php:19
+msgid "Error"
+msgstr ""
+
+#: includes/i18n/AjaxStrings.php:20 includes/WooCommerce/Products/Ajax.php:32
+#: includes/WooCommerce/Products/Ajax.php:109
+#: includes/WooCommerce/Products/Ajax.php:166
+#: includes/WooCommerce/Products/Ajax.php:195
+msgid "Please refresh the page."
+msgstr ""
+
+#: includes/i18n/AjaxStrings.php:21
+msgid "Are you sure you want to delete this file?"
+msgstr ""
+
+#: includes/i18n/AjaxStrings.php:22
+msgid "Please wait until quantity is updated."
+msgstr ""
+
+#: includes/i18n/AjaxStrings.php:23
+msgid ""
+"Post-processing of the file failed likely because the server is busy or does "
+"not have enough resources."
+msgstr ""
+
+#: includes/Traits/Session.php:23
+msgid "WooCommerce not active."
+msgstr ""
+
+#: includes/WooCommerce/Cart/Add.php:51
+msgid "View product"
+msgstr ""
+
+#. &#39; HTML quote entity
+#: includes/WooCommerce/Cart/Item.php:22
+msgid "If you want to change the quantity, visit this product&#39;s page."
+msgstr ""
+
+#: includes/WooCommerce/Order/Zip.php:17
+msgid "Upload actions"
+msgstr ""
+
+#: includes/WooCommerce/Order/Zip.php:30
+msgid "ZipArchive module not installed. Generating archives is unavailable."
+msgstr ""
+
+#: includes/WooCommerce/Order/Zip.php:32
+msgid ""
+"You need to start processing the order to be able to generate the archive."
+msgstr ""
+
+#: includes/WooCommerce/Order/Zip.php:37
+msgid "Generate ZIP archive"
+msgstr ""
+
+#. %s formated url, link of archive file; <strong> HTML equivalent bold
+#: includes/WooCommerce/Order/Zip.php:48
+#, php-format
+msgid ""
+"We found a previously generated archive.\n"
+"\t\t\t\t\t\tYou can regenerate it, by clicking on the <strong>Generate ZIP "
+"archive</strong>\n"
+"\t\t\t\t\t\tbutton or you can redownload it by %s."
+msgstr ""
+
+#. the formated archive url text
+#: includes/WooCommerce/Order/Zip.php:52
+msgid "clicking this link"
+msgstr ""
+
+#. &#39; HTML quote entity
+#: includes/WooCommerce/Order/Zip.php:58
+msgid "This order doesn&#39;t have any uploads."
+msgstr ""
+
+#. %d formated digit, order id; <strong> HTML equivalent bold
+#: includes/WooCommerce/Order/Zip.php:94
+#, php-format
+msgid "Initializing archive packing on order <strong>#%d</strong>."
+msgstr ""
+
+#. %s formated string, archive directory name; <strong> HTML equivalent bold
+#: includes/WooCommerce/Order/Zip.php:100
+#, php-format
+msgid "Successfully created directory <strong>%s</strong> in archive."
+msgstr ""
+
+#. %s formated string, name of the archived file; <strong> HTML equivalent bold
+#: includes/WooCommerce/Order/Zip.php:121
+#, php-format
+msgid "Added <strong>%s</strong> to the archive."
+msgstr ""
+
+#. %s formated string, order item name; <strong> HTML equivalent bold
+#: includes/WooCommerce/Order/Zip.php:124
+#, php-format
+msgid "Finished packing item <strong>%s</strong> into the archive."
+msgstr ""
+
+#. %s formated string, archive directory name; <strong> HTML equivalent bold
+#: includes/WooCommerce/Order/Zip.php:127
+#, php-format
+msgid "Failed to create <strong>%s</strong> subdirectory in archive."
+msgstr ""
+
+#. %d formated digit, order id; <strong> HTML equivalent bold
+#: includes/WooCommerce/Order/Zip.php:132
+#, php-format
+msgid "Finished packing order <strong>#%d</strong>."
+msgstr ""
+
+#: includes/WooCommerce/Order/Zip.php:133
+msgid "Click here to download your archive."
+msgstr ""
+
+#: includes/WooCommerce/Order/Zip.php:136
+msgid "Failed to create archive."
+msgstr ""
+
+#: includes/WooCommerce/Order/Zip.php:139
+msgid "Request failed, invalid nonce. Please refresh the page."
+msgstr ""
+
+#. &#39; HTML quote entity
+#: includes/WooCommerce/Products/Ajax.php:37
+msgid "Upload isn&#39;t enabled for this product."
+msgstr ""
+
+#: includes/WooCommerce/Products/Ajax.php:64
+msgid "Failed to validate the uploaded file."
+msgstr ""
+
+#: includes/WooCommerce/Products/Ajax.php:91
+msgid "Unable to save file to temporary directory."
+msgstr ""
+
+#: includes/WooCommerce/Products/Ajax.php:94
+msgid "Invalid file type uploaded."
+msgstr ""
+
+#: includes/WooCommerce/Products/Ajax.php:97
+msgid "Unable to create temporary upload directory."
+msgstr ""
+
+#. Something went wrong, please try again. User shouldn't even see this error, happens only if someone is tinkering with the ajax calls
+#: includes/WooCommerce/Products/Ajax.php:101
+#: includes/WooCommerce/Products/Ajax.php:158
+#: includes/WooCommerce/Products/Ajax.php:187
+#: includes/WooCommerce/Products/Ajax.php:230
+msgid "Sum ting went wong, wi tu lo"
+msgstr ""
+
+#. %s formated string of filename
+#: includes/WooCommerce/Products/Ajax.php:155
+#, php-format
+msgid "Successfully deleted %s"
+msgstr ""
+
+#: includes/WooCommerce/Products/Ajax.php:184
+msgid "Successfully deleted all uploads."
+msgstr ""
+
+#. %s formated string of filename
+#: includes/WooCommerce/Products/Ajax.php:227
+#, php-format
+msgid "Successfully updated %s"
+msgstr ""
+
+#: includes/WooCommerce/Products/DataTabs.php:20
+msgid "Upload"
+msgstr ""
+
+#: includes/WooCommerce/Settings/Section.php:13
+msgid "Uploads"
+msgstr ""
+
+#: includes/WooCommerce/Settings/Section.php:19
+msgid "General"
+msgstr ""
+
+#: includes/WooCommerce/Settings/Section.php:27
+msgid "File settings"
+msgstr ""
+
+#: includes/WooCommerce/Settings/Section.php:32
+msgid "Allowed file extensions"
+msgstr ""
+
+#: includes/WooCommerce/Settings/Section.php:33
+msgid ""
+"Separate all file extensions with a space and without the dot. Ex: jpg png "
+"doc pdf"
+msgstr ""
+
+#: includes/WooCommerce/Settings/Section.php:39
+msgid "Uploads as quantity"
+msgstr ""
+
+#: includes/WooCommerce/Settings/Section.php:40
+msgid "Multiply each uploaded file by product price"
+msgstr ""
+
+#. Name of the plugin
+msgid "Uploads for WooCommerce"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Let customers upload files to your WooCommerce products. Perfect for online "
+"photo or document processing services. Developer friendly."
+msgstr ""
+
+#. URI of the plugin
+msgid "https://woouploads.com"
+msgstr ""
+
+#. Author of the plugin
+msgid "Mujnoi Tamas"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://europadns.com/"
+msgstr ""

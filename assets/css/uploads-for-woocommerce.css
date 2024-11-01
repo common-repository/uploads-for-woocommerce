@@ -1,0 +1,320 @@
+.wu-container-fluid {
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.wu-row {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-right: -15px;
+	margin-left: -15px;
+}
+
+[class*="wu-col"] {
+	-ms-flex-preferred-size: 0;
+	flex-basis: 0;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+	max-width: 100%;
+}
+
+.wu-col-1, .wu-col-2, .wu-col-3, .wu-col-4, .wu-col-5, .wu-col-6,
+.wu-col-7, .wu-col-8, .wu-col-9, .wu-col-10, .wu-col-11, .wu-col-12 {
+	position: relative;
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.wu-col-1 {
+	-ms-flex: 0 0 8.333333%;
+	flex: 0 0 8.333333%;
+	max-width: 8.333333%;
+}
+
+.wu-col-2 {
+	-ms-flex: 0 0 16.666667%;
+	flex: 0 0 16.666667%;
+	max-width: 16.666667%;
+}
+
+.wu-col-3 {
+	-ms-flex: 0 0 25%;
+	flex: 0 0 25%;
+	max-width: 25%;
+}
+
+.wu-col-4 {
+	-ms-flex: 0 0 33.333333%;
+	flex: 0 0 33.333333%;
+	max-width: 33.333333%;
+}
+
+.wu-col-5 {
+	-ms-flex: 0 0 41.666667%;
+	flex: 0 0 41.666667%;
+	max-width: 41.666667%;
+}
+
+.wu-col-6 {
+	-ms-flex: 0 0 50%;
+	flex: 0 0 50%;
+	max-width: 50%;
+}
+
+.wu-col-7 {
+	-ms-flex: 0 0 58.333333%;
+	flex: 0 0 58.333333%;
+	max-width: 58.333333%;
+}
+
+.wu-col-8 {
+	-ms-flex: 0 0 66.666667%;
+	flex: 0 0 66.666667%;
+	max-width: 66.666667%;
+}
+
+.wu-col-9 {
+	-ms-flex: 0 0 75%;
+	flex: 0 0 75%;
+	max-width: 75%;
+}
+
+.wu-col-10 {
+	-ms-flex: 0 0 83.333333%;
+	flex: 0 0 83.333333%;
+	max-width: 83.333333%;
+}
+
+.wu-col-11 {
+	-ms-flex: 0 0 91.666667%;
+	flex: 0 0 91.666667%;
+	max-width: 91.666667%;
+}
+
+.wu-col-12 {
+	-ms-flex: 0 0 100%;
+	flex: 0 0 100%;
+	max-width: 100%;
+}
+
+@media (max-width: 576px) {
+	.wu-col-1, .wu-col-2, .wu-col-3, .wu-col-4, .wu-col-5, .wu-col-6,
+	.wu-col-7, .wu-col-8, .wu-col-9, .wu-col-10, .wu-col-11, .wu-col-12 {
+		flex: auto;
+		max-width: 50%;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 1100px) {
+	.wu-col-1, .wu-col-2, .wu-col-3, .wu-col-4, .wu-col-5, .wu-col-6,
+	.wu-col-7, .wu-col-8, .wu-col-9, .wu-col-10, .wu-col-11, .wu-col-12 {
+		flex: auto;
+		max-width: 50%;
+	}
+}
+
+.progress {
+	border: 1px solid #eee;
+	height: 10px;
+}
+
+.progress-bar {
+	width: 0%;
+	height: 100%;
+	background-color: #707070;
+}
+.progress-bar.progress-bar-danger {
+	background-color: #cd2653;
+}
+
+.upload-box p.description {
+	font-size: 14px;
+	color: #707070;
+	margin: 0;
+}
+.upload-box {
+	background-color: transparent;
+	border: 1px solid #eee;
+	margin-bottom: 25px;
+	transition: all .3s linear;
+}
+.is-dragover .upload-box {
+	background-color: #f7f7f7;
+	border-color: #ddd;
+}
+
+.is-uploading .upload-box {
+	background-color: transparent;
+	border-color: transparent;
+}
+
+.woocommerce-no-js.single-product form.cart input.inputfile {
+	width: 100%;
+}
+
+.woocommerce-js .inputfile {
+		width: 0.1px;
+		height: 0.1px;
+		opacity: 0;
+		overflow: hidden;
+		position: absolute;
+		z-index: -1;
+}
+
+.inputfile + label {
+	cursor: pointer;
+	width: 100%;
+	height: 100%;
+	display: block;
+	padding: 28px 0;
+	margin-bottom: -2px; /* compensate for the +1px border(top,bottom) on .upload-box */
+	text-align: center;
+	transition: all .3s linear;
+}
+
+.is-dragover .inputfile + label {
+	opacity: .5;
+}
+
+.inputfile + label .icon-upload {
+	background: url('../images/upload.png') no-repeat transparent;
+	display: inline-block;
+	width: 55px;
+	height: 40px;
+}
+
+.inputfile + label .divider {
+	margin-bottom: 16px;
+}
+
+
+.woocommerce-no-js .inputfile + label {
+		display: none;
+}
+
+.woocommerce-no-js .upload-input {
+		padding: 50px;
+}
+
+.upload-file .container-fluid {
+	padding: 0 !important;
+	width: 100%;
+}
+
+.upload-file h4 {
+	font-family: 'Quicksand';
+	color: #707070;
+	position: relative;
+	margin: 0;
+}
+
+.upload-file textarea,
+.upload-select-category {
+	min-height: 200px;
+}
+
+.upload-file textarea {
+	resize: vertical;
+}
+
+.upload-file .thumb,
+.upload-file .thumb img {
+	width: 100%;
+}
+
+.upload-file .thumb {
+	border: 1px solid #eee;
+	background-color: #f7f7f7;
+}
+
+.upload-file.is-preview-loading .thumb {
+	padding: 30px 50px;
+}
+
+.upload-file.is-preview-loading .thumb img {
+	display: block;
+	margin: 0 auto;
+}
+
+.upload-file .upload-delete {
+	cursor: pointer;
+	color: #cd2653;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+#upload-processing .upload-file:after {
+	display: block;
+	width: 100%;
+	height: 1px;
+	border-bottom: 1px solid #e1e1e1;
+	margin: 10px auto;
+	content: '';
+}
+
+#upload-processing .upload-file:last-child:after {
+	border-bottom: none;
+	margin-bottom: 0;
+	height: 0;
+}
+
+.upload-post-show,
+.upload-post-processed {
+	display: none;
+}
+
+.upload-post-processed .form-control:last-child {
+	margin-bottom: 20px;
+}
+
+.upload-post-pending span {
+	font-size: 14px;
+}
+
+.upload-file .upload-title {
+	text-overflow: ellipsis;
+	width: 90%;
+	overflow: hidden;
+	display: inline-block;
+	white-space: nowrap;
+}
+
+#upload-processing .woo-upload-quantity {
+	padding: 0 10px !important;
+	margin: 0;
+}
+
+#upload-processing label {
+	font-weight: normal;
+}
+
+#upload-response .alert.alert-danger {
+	color: #cd2653;
+}
+
+.woo-quick-loader {
+	display: inline;
+}
+
+.woouploads.woouploads-default-quantity .woouploads-cart-item-has-upload .woouploads-details,
+.woouploads.woouploads-default-quantity .wu-quantity {
+	display: none;
+}
+
+.woouploads.woouploads-multiply-quantity .woouploads-cart-item-has-upload .quantity .qty,
+.woouploads.woouploads-multiply-quantity .quantity .qty {
+	display: none;
+}
+
+.woouploads-cart-item-has-upload .woouploads-preview {
+	max-width: 100%;
+}
+
+.woouploads-cart-item-has-upload .woouploads-details {
+	text-align: left !important;
+}
